@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e3a745ad-db5e-4fa3-8c2d-7f5c8ea81a7c" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/Home/Controller/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/Home/View/index.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Admin/Controller/IndexController.class.php" afterPath="$PROJECT_DIR$/Application/Admin/Controller/IndexController.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Home/Controller/IndexController.class.php" afterPath="$PROJECT_DIR$/Application/Home/Controller/IndexController.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Runtime/Logs/Home/18_02_08.log" afterPath="$PROJECT_DIR$/Application/Runtime/Logs/Home/18_02_08.log" />
-    </list>
+    <list default="true" id="e3a745ad-db5e-4fa3-8c2d-7f5c8ea81a7c" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -66,7 +59,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="21" />
     <option name="y" value="15" />
     <option name="width" value="1378" />
@@ -143,7 +136,7 @@
               <item name="yuewang" type="b2602c69:ProjectViewProjectNode" />
               <item name="yuewang" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Public" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Home" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Admin" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="yuewang" type="b2602c69:ProjectViewProjectNode" />
@@ -197,15 +190,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1518055225000</updated>
-      <workItem from="1518055227509" duration="3604000" />
+      <workItem from="1518055227509" duration="3678000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3604000" />
+    <option name="totallyTimeSpent" value="3678000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
