@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #f4f4f4;
+}
+/*header 头部样式*/
+header{
+
+}
+header .carousel{
+    overflow: hidden;
+}
+.carousel ul{
+    width: 100%;
+    list-style: none;
+    white-space: nowrap;    /*内容不换行*/
+    margin-left: 0px;
+}
+.carousel ul li{
+    padding: 10px 5px;
+    display: inline-block;
+    width: 80%;
+}
+.carousel ul li img{
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+.main_content {
+    width: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+.main_content .content_module:not(:first-child) {
+    margin-top: 15px;
+}
+
+.main_content .content_module {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.main_content .content_module .module_left {
+    width: 60px;
+    height: 60px;
+}
+.main_content .content_module .module_left a{
+    display: block;
+    width: 60px;
+}
+.main_content .content_module .module_left img{
+    display: block;
+    width: 60px;
+}
+
+.main_content .content_module .module_right {
+    flex: 4;
+    padding-left: 15px;
+}
+
+.module_right .module_right_title {
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: 3px;
+    text-decoration: none;
+    color: black;
+}
+.module_right .module_right_comment{
+    font-size: 14px;
+    line-height: 30px;
+}
+.module_right .module_right_comment em{
+    font-style: normal;
+    vertical-align: middle;
+}
+.module_right .module_right_comment>em{
+    margin: 0 5px;
+}
+.module_right .module_right_comment img {
+    width: 18px;
+    vertical-align: middle;
+}
+.module_right .module_right_comment img.img_love{
+    width: 15px;
+}
+.module_right .module_right_comment span{
+    float: right;
+}
+.module_right .module_right_label span{
+    display: inline-block;
+    margin: 5px;
+    font-size: 10px;
+    padding: 2px 5px;
+    color: #a6a6a6;
+    border: 1px solid #7d7d7d;
+    border-radius: 5px;
+}
+.module_right .module_right_introduce{
+    padding: 0 5px;
+}
+.module_right .module_right_introduce span{
+    margin-right: 8px;
+    font-size: 14px;
+}
+.module_right .module_right_introduce span em{
+    font-style: normal;
+}
+
+.content_nav{
+    display: flex;
+}
+.content_nav>div{
+    flex: 1;
+    text-align: center;
+    color: #bbbbbb;
+    padding-top: 15px;
+    font-size: 14px;
+}
+.content_nav>div img{
+    display: block;
+    width: 25px;
+    height: 25px;
+    margin: 0 auto;
+}
+
+
+/*main 中间内容样式*/
+main{
+    position: absolute;
+    width: 100%;
+    top: 350px;
+    bottom: 60px;
+    overflow: auto;
+    padding: 15px;
+    box-sizing: border-box;
+    background: url("../images/con_bg.png") 50% no-repeat;
+    background-size: 50%;
+}
+.content_introduce{
+    padding: 15px;
+    font-size: 14px;
+    line-height: 30px;
+}
+
+
+/*footer 底部样式*/
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    border-top: 1px solid #a0a0a0;
+    display: flex;
+    background-color: #f4f4f4;
+}
+
+footer > div {
+    flex: 1;
+    text-align: center;
+}
+
+footer a {
+    display: inline-block;
+    height: 60px;
+    padding: 8px 20px;
+    box-sizing: border-box;
+    font-size: 12px;
+    text-decoration: none;
+    color: #343434;
+}
+
+footer > div:nth-child(2) {
+    flex: 3;
+}
+
+footer a img {
+    display: block;
+    margin: 0 auto;
+    width: 30px;
+    height: 30px;
+}

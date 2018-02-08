@@ -1,0 +1,206 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    width:100%;
+    height:100%;
+    background-color: #d2d2d2;
+}
+/*可选择、不可选择和选中的背景色*/
+.choice{
+    /*background-color: #0ca2d9;*/
+    border:1px solid #666;
+}
+.selected{
+    background-color: #0ca2d9;
+    border:none;
+}
+.noChoice{
+    background-color: #a0a0a0;
+    border:none;
+}
+/*container 容器样式*/
+.container{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left:0;
+    right: 0;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    color: white;
+    z-index: 999999;
+}
+/*content 内容区样式*/
+.container .content{
+    position: absolute;
+    top: 35px;
+    bottom: 138px;
+    left:0;
+    right: 0;
+    overflow: auto;
+
+}
+.container .con_module{
+    padding: 15px 0;
+    background-color: #f4f4f4;
+}
+.container .con_module:not(:first-child){
+    margin-top: 15px;
+}
+.module_title{
+    text-align: center;
+    line-height: 40px;
+}
+.module_title span{
+    width: 100px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.module_title span:not(:nth-child(2)){
+    background-color: black;
+    height: 3px;
+}
+.module_title span:nth-child(2){
+    font-size: 20px;
+}
+.module_seat{
+    display: flex;
+    flex-wrap: wrap;
+}
+.module_seat>div{
+    width: 16.66%;
+}
+.module_seat span{
+    font-size: 12px;
+    display: inline-block;
+    padding: 5px 5px;
+    margin: 5px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+/*footer 底部区样式*/
+.footer{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    border-top: 1px solid black;
+    background-color: #f4f4f4;
+}
+.footer_top{
+    display: flex;
+    padding: 10px;
+    border-bottom: 1px solid #a0a0a0;
+}
+.footer_top>div{
+    flex: 1;
+    font-size: 14px;
+    position: relative;
+    padding-bottom: 20px;
+}
+.footer_top>div span{
+    display: inline-block;
+    padding: 5px 8px;
+    border-radius: 10px;
+}
+.footer_top>div p,.footer_top>div div{
+    position: absolute;
+    bottom: 5px;
+    font-size: 12px;
+}
+.footer_top_left{
+
+}
+.footer_top_left span{
+    margin: 5px 10px 5px 0;
+}
+.footer_top_right{
+    text-align: right;
+}
+.footer_top_right span{
+    margin: 5px 0 5px 10px;
+}
+.footer_top_right div{
+    width: 100%;
+    color: red;
+    text-align: right;
+}
+.footer_bottom{
+    padding: 10px;
+    box-sizing: border-box;
+}
+.footer_bottom button{
+    width: 100%;
+    height: 40px;
+    background-color: #0ca2d9;
+    outline: none;
+    border: 1px solid #0c89b7;
+    border-radius: 20px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    color: white;
+}
+
+/*模态对话框*/
+/*begin--遮罩--*/
+.modal_dialog_shade{
+    position: absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    background-color: black;
+    opacity: 0.3;
+    z-index:20;
+}
+/*end--遮罩--*/
+.modal_dialog_box{
+    position: absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    z-index:999;
+}
+.modal_dialog_box .modal_box{
+    margin: 100px auto;
+    width: 80%;
+    padding: 15px;
+    background-color: #f4f4f4;
+    text-align: center;
+    border-radius: 20px;
+}
+.modal_dialog_box .modal_box h4{
+    line-height: 50px;
+    font-size: 18px;
+}
+.modal_dialog_box .modal_box h4.fail{
+    color: red;
+}
+.modal_dialog_box .modal_box .box_message{
+    line-height: 25px;
+}
+.modal_dialog_box .modal_box .box_message span{
+    color: red;
+}
+.modal_dialog_box .modal_box button{
+    display: block;
+    width: 60%;
+    height: 30px;
+    margin: 15px auto 0;
+    outline: none;
+    border:none;
+    color: white;
+    font-size: 17px;
+    border-radius: 10px;
+    background-color: #0ca2d9;
+}
+.modal_dialog_box .modal_box button.xunshi{
+    background-color: transparent;
+    color: #aaa9a9;
+}

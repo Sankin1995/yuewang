@@ -1,0 +1,234 @@
+.LTT_yellow_ban {
+  width: 100%;
+  height: 160px;
+}
+.LTT_yellow_ban img {
+  width: 100%;
+  height: 100%;
+}
+.LTT_price_area {
+  background-color: #f4f4f4;
+}
+.LTT_price_area .LTT_price_li {
+  width: 50%;
+  height: 35px;
+  line-height: 35px;
+  list-style: none;
+  background-color: #f4f4f4;
+  text-align: center;
+  float: left;
+  margin-bottom: 10px;
+}
+.LTT_price_area .LTT_price_li .LTT_price {
+  width: 100%;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+  display: none;
+}
+.LTT_price_area .LTT_price_li .LTT_price li {
+  width: 100%;
+  height: 30px;
+  list-style: none;
+  line-height: 30px;
+  color: black;
+  background-color: white;
+  text-align: center;
+}
+.LTT_price_area .LTT_price_li .LTT_price li:hover {
+  color: white;
+  background-color: #f9d623;
+}
+.LTT_price_area .on {
+  color: white;
+  background-color: #f9d623;
+}
+.LTT_xia_div {
+  width: 100%;
+  background-color: #f4f4f4;
+  padding-bottom: 10px;
+  border-top: 1px solid #cccccc;
+}
+.LTT__mybar_li:first-child {
+  margin-top: 35px;
+}
+.LTT__mybar_li {
+  background-color: white;
+  width: 100%;
+  height: 100px;
+  list-style: none;
+  margin-top: 14px;
+}
+.LTT__mybar_li div {
+  float: left;
+}
+.LTT__mybar_li > a {
+  display: block;
+  color: black;
+  height: 100%;
+}
+.LTT__mybar_li .LTT_kind_picture {
+  width: 64px;
+  height: 64px;
+  margin-top: 8px;
+  margin-left: 1px;
+}
+.LTT__mybar_li .LTT_kind_picture img {
+  width: 100%;
+  height: 100%;
+}
+.LTT__mybar_li .LTT_kind_font {
+  width: 78%;
+  margin-top: 16px;
+  height: 90px;
+  margin-left: 1px;
+}
+.LTT__mybar_li .LTT_kind_font .LTT_kind_p1 {
+  font-size: 16px;
+}
+.LTT__mybar_li .LTT_kind_font .LTT_kind_p1 span:nth-of-type(2) {
+  float: right;
+}
+.LTT__mybar_li .LTT_kind_font .LTT_kind_p1 span:nth-of-type(2) em {
+  color: red;
+}
+.LTT__mybar_li .LTT_kind_font .LTT_kind_p2 {
+  margin-top: 5px;
+  height: 22px;
+}
+.LTT__mybar_li .LTT_kind_font .LTT_kind_p2 .LTT_ping_name {
+  float: left;
+}
+.LTT__mybar_li .LTT_kind_font .LTT_kind_p2 .LTT_xing {
+  display: inline-block;
+  padding-right: 8px;
+  float: left;
+}
+.LTT__mybar_li .LTT_kind_font .LTT_kind_p2 .LTT_xing em {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  float: left;
+  padding-right: 1px;
+}
+.LTT__mybar_li .LTT_kind_font .LTT_kind_p2 .LTT_xing em img {
+  width: 100%;
+  height: 100%;
+}
+.LTT__mybar_li .LTT_kind_font .LTT_kind_p2 .LTT_red_xing {
+  display: inline-block;
+  float: left;
+  width: 15px;
+  height: 15px;
+}
+.LTT__mybar_li .LTT_kind_font .LTT_kind_p2 .LTT_red_xing img {
+  width: 100%;
+  height: 100%;
+}
+.LTT__mybar_li .LTT_kind_font .LTT_kind_p2 .LTT_score {
+  display: inline-block;
+  float: left;
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  padding-right: 10px;
+}
+.LTT__mybar_li .LTT_kind_font .LTT_kind_p2 .LTT_care {
+  float: right;
+  font-size: 14px;
+}
+.LTT_footer_fixed {
+  border-top: 1px solid #cccccc;
+  position: fixed;
+  width: 100%;
+  bottom: 0px;
+}
+.LTT_footer_fixed .LTT_fixed_ul {
+  width: 100%;
+}
+.LTT_footer_fixed .LTT_fixed_ul li:nth-of-type(1):hover .LTT_footer1 {
+  background: url("../images/icon_shouye1.png") no-repeat;
+  background-size: 100% 100%;
+}
+.LTT_footer_fixed .LTT_fixed_ul li:nth-of-type(2):hover .LTT_footer2 {
+  background: url("../images/icon_ord1.png") no-repeat;
+  background-size: 100% 100%;
+}
+.LTT_footer_fixed .LTT_fixed_ul li:nth-of-type(3):hover .LTT_footer3 {
+  background: url("../images/icon_me1.png") no-repeat;
+  background-size: 100% 100%;
+}
+.LTT_footer_fixed .LTT_fixed_ul li:nth-of-type(1):hover .LTT_font {
+  color: #f3f427;
+}
+.LTT_footer_fixed .LTT_fixed_ul li:nth-of-type(2):hover .LTT_font {
+  color: #f3f427;
+}
+.LTT_footer_fixed .LTT_fixed_ul li:nth-of-type(3):hover .LTT_font {
+  color: #f3f427;
+}
+.LTT_footer_fixed .LTT_fixed_ul li {
+  float: left;
+  width: 32%;
+  height: 50px;
+  list-style: none;
+}
+.LTT_footer_fixed .LTT_fixed_ul li .LTT_footer1 {
+  background: url("../images/icon_shouye.png") no-repeat;
+  background-size: 100% 100%;
+}
+.LTT_footer_fixed .LTT_fixed_ul li .LTT_footer2 {
+  background: url("../images/icon_ord.png") no-repeat;
+  background-size: 100% 100%;
+}
+.LTT_footer_fixed .LTT_fixed_ul li .LTT_footer3 {
+  background: url("../images/icon_me.png") no-repeat;
+  background-size: 100% 100%;
+}
+.LTT_footer_fixed .LTT_fixed_ul li span {
+  display: block;
+  width: 25px;
+  height: 25px;
+  margin: 3px auto;
+}
+.LTT_footer_fixed .LTT_fixed_ul li span img {
+  width: 100%;
+  height: 100%;
+}
+.LTT_footer_fixed .LTT_fixed_ul li .LTT_font {
+  font-size: 12px;
+  color: #8d8d8d;
+  text-align: center;
+}
+/*footer 底部样式*/
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  border-top: 1px solid #a0a0a0;
+  display: flex;
+  background-color: #f4f4f4;
+}
+footer > div {
+  flex: 1;
+  text-align: center;
+}
+footer a {
+  display: inline-block;
+  height: 60px;
+  padding: 8px 20px;
+  box-sizing: border-box;
+  font-size: 12px;
+  text-decoration: none;
+  color: #343434;
+}
+footer > div:nth-child(2) {
+  flex: 3;
+}
+footer a img {
+  display: block;
+  margin: 0 auto;
+  width: 30px;
+  height: 30px;
+}
+.activeFooterBtn {
+  color: #f6e124;
+}

@@ -1,0 +1,60 @@
+body {
+  background-color: #f4f4f4;
+}
+.LTT_big_ul {
+  width: 100%;
+}
+.LTT_big_ul .LTT_big_li {
+  width: 100%;
+  list-style: none;
+  border: 1px solid #f4f4f4;
+  padding-bottom: 10px;
+}
+.on {
+  color: red;
+}
+.LTT_top_line {
+  width: 94%;
+  height: 12px;
+  margin: 20px auto 0;
+  background-color: #c1c1c1;
+  border-radius: 8px;
+}
+.LTT_context {
+  width: 88%;
+  margin: -10px auto 0;
+  background-color: white;
+}
+.LTT_context .LTT_detai_time {
+  text-align: center;
+  font-size: 12px;
+  color: #c1c1c1;
+  margin-top: 5px;
+}
+.LTT_context p {
+  font-size: 16px;
+  box-sizing: border-box;
+  padding-left: 15px;
+  margin-top: 4px;
+  overflow: hidden;
+}
+.LTT_context p span {
+  color: #c1c1c1;
+}
+.LTT_context p:nth-of-type(2) {
+  margin-top: 10px;
+}
+.LTT_context div:nth-of-type(1) {
+  margin-top: 15px;
+  border-top: 1px dashed #c1c1c1;
+  padding-top: 6px;
+}
+.LTT_context div {
+  text-align: right;
+  box-sizing: border-box;
+  padding-right: 10px;
+  font-size: 16px;
+}
+.LTT_context div span {
+  color: #ff9e21;
+}

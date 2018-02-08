@@ -1,0 +1,83 @@
+body {
+  background-color: #f4f4f4;
+  position: relative;
+  min-height: 667px;
+}
+.LTT_big_box {
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 1;
+  padding-bottom: 20px;
+}
+.LTT_big_box .LTT_header_p {
+  color: #686868;
+  width: 94%;
+  margin: 15px auto 0;
+  line-height: 25px;
+  font-size: 14px;
+}
+.LTT_big_box .LTT_infro_div {
+  width: 90%;
+  margin: 35px auto 0;
+}
+.LTT_big_box .LTT_infro_div .LTT_kind_name {
+  display: inline-block;
+  min-width: 85px;
+  width: 30%;
+  font-size: 17px;
+  height: 32px;
+  line-height: 32px;
+  float: left;
+}
+.LTT_big_box .LTT_infro_div .LTT_input {
+  width: 65%;
+  height: 32px;
+  line-height: 32px;
+  border-radius: 15px;
+  text-align: center;
+  font-size: 17px;
+  float: right;
+  border: none;
+  outline: medium;
+}
+.LTT_big_box .LTT_waring {
+  width: 84%;
+  margin: 35px auto;
+  color: #686868;
+  font-size: 14px;
+  text-align: center;
+}
+.LTT_big_box .LTT_OK {
+  width: 90%;
+  display: block;
+  margin: 0 auto;
+  font-size: 16px;
+  border: none;
+  outline: medium;
+  border-radius: 10px;
+  height: 40px;
+  line-height: 40px;
+  background-color: #fd524a;
+  color: white;
+}
+.LTT_url {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-color: #cccccc;
+  opacity: 0.3;
+}
+.LTT_xia_back {
+  width: 74%;
+  margin: 0 auto;
+  padding-top: 230px;
+  height: 260px;
+}
+.LTT_xia_back img {
+  width: 100%;
+  height: 100%;
+}
